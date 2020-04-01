@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
+   sodipodi:docname="roni_logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g30"
+       transform="translate(25.702381,37.041667)">
+      <path
+         transform="matrix(1.9253101,0,0,1.6620489,-86.03731,-61.499615)"
+         style="fill:#000000;stroke-width:0.26458332"
+         inkscape:transform-center-y="2.4362484"
+         inkscape:transform-center-x="11.284663"
+         d="M 157.23809,133.71428 106.9771,128.28982 74.014835,166.61841 63.642307,117.14112 17.003748,97.636325 60.854162,72.482139 64.992215,22.098921 102.46579,56.030073 151.66181,44.396325 130.97134,90.521116 Z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.1942861"
+         sodipodi:arg1="0.5659676"
+         sodipodi:r2="38.06316"
+         sodipodi:r1="76.12632"
+         sodipodi:cy="92.892853"
+         sodipodi:cx="92.98214"
+         sodipodi:sides="5"
+         id="path10"
+         sodipodi:type="star" />
+      <text
+         transform="rotate(-14.974922)"
+         id="text14"
+         y="113.2478"
+         x="-8.2568035"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.44444275px;font-family:'URW Bookman L';-inkscape-font-specification:'URW Bookman L';fill:#ffffff;stroke-width:0.26458332"
+           y="113.2478"
+           x="-8.2568035"
+           id="tspan12"
+           sodipodi:role="line">RONI</tspan><tspan
+           id="tspan24"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.44444275px;font-family:'URW Bookman L';-inkscape-font-specification:'URW Bookman L';fill:#ffffff;stroke-width:0.26458332"
+           y="183.80336"
+           x="-8.2568035"
+           sodipodi:role="line"> 4X4</tspan></text>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot16"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion18"><rect
+           id="rect20"
+           width="52.986565"
+           height="82.181053"
+           x="334.28571"
+           y="211.76721" /></flowRegion><flowPara
+         id="flowPara22"></flowPara></flowRoot>  </g>
+</svg>

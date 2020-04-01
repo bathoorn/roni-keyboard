@@ -1,0 +1,767 @@
+EESchema Schematic File Version 4
+LIBS:roni4x2split-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E6DE968
+P 10550 750
+F 0 "#FLG0101" H 10550 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 10550 923 50  0000 C CNN
+F 2 "" H 10550 750 50  0001 C CNN
+F 3 "~" H 10550 750 50  0001 C CNN
+	1    10550 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E6DEBF5
+P 10950 750
+F 0 "#PWR0101" H 10950 500 50  0001 C CNN
+F 1 "GND" H 10955 577 50  0000 C CNN
+F 2 "" H 10950 750 50  0001 C CNN
+F 3 "" H 10950 750 50  0001 C CNN
+	1    10950 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5E6DEDEC
+P 10550 750
+F 0 "#PWR0102" H 10550 600 50  0001 C CNN
+F 1 "VCC" H 10567 923 50  0000 C CNN
+F 2 "" H 10550 750 50  0001 C CNN
+F 3 "" H 10550 750 50  0001 C CNN
+	1    10550 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5E6E02B7
+P 10950 750
+F 0 "#FLG0102" H 10950 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 10950 923 50  0000 C CNN
+F 2 "" H 10950 750 50  0001 C CNN
+F 3 "~" H 10950 750 50  0001 C CNN
+	1    10950 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW9
+U 1 1 5E6E79DF
+P 7225 3050
+F 0 "SW9" H 7225 3305 50  0000 C CNN
+F 1 "SW_PUSH" H 7225 3214 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 7225 3050 50  0001 C CNN
+F 3 "" H 7225 3050 50  0000 C CNN
+	1    7225 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5E6E79E5
+P 7525 3200
+F 0 "D9" H 7525 3416 50  0000 C CNN
+F 1 "D" H 7525 3325 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD" H 7525 3200 50  0001 C CNN
+F 3 "~" H 7525 3200 50  0001 C CNN
+	1    7525 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW13
+U 1 1 5E6E80A9
+P 8225 3050
+F 0 "SW13" H 8225 3305 50  0000 C CNN
+F 1 "SW_PUSH" H 8225 3214 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 8225 3050 50  0001 C CNN
+F 3 "" H 8225 3050 50  0000 C CNN
+	1    8225 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5E6E80AF
+P 8525 3200
+F 0 "D13" H 8525 3416 50  0000 C CNN
+F 1 "D" H 8525 3325 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD" H 8525 3200 50  0001 C CNN
+F 3 "~" H 8525 3200 50  0001 C CNN
+	1    8525 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW10
+U 1 1 5E6EDF07
+P 7225 3800
+F 0 "SW10" H 7225 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 7225 3964 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 7225 3800 50  0001 C CNN
+F 3 "" H 7225 3800 50  0000 C CNN
+	1    7225 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5E6EDF0D
+P 7525 3950
+F 0 "D10" H 7525 4166 50  0000 C CNN
+F 1 "D" H 7525 4075 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD" H 7525 3950 50  0001 C CNN
+F 3 "~" H 7525 3950 50  0001 C CNN
+	1    7525 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW14
+U 1 1 5E6EDF13
+P 8225 3800
+F 0 "SW14" H 8225 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 8225 3964 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 8225 3800 50  0001 C CNN
+F 3 "" H 8225 3800 50  0000 C CNN
+	1    8225 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5E6EDF19
+P 8525 3950
+F 0 "D14" H 8525 4166 50  0000 C CNN
+F 1 "D" H 8525 4075 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD" H 8525 3950 50  0001 C CNN
+F 3 "~" H 8525 3950 50  0001 C CNN
+	1    8525 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW11
+U 1 1 5E6F0541
+P 7225 4550
+F 0 "SW11" H 7225 4805 50  0000 C CNN
+F 1 "SW_PUSH" H 7225 4714 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 7225 4550 50  0001 C CNN
+F 3 "" H 7225 4550 50  0000 C CNN
+	1    7225 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5E6F0547
+P 7525 4700
+F 0 "D11" H 7525 4916 50  0000 C CNN
+F 1 "D" H 7525 4825 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD" H 7525 4700 50  0001 C CNN
+F 3 "~" H 7525 4700 50  0001 C CNN
+	1    7525 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW15
+U 1 1 5E6F054D
+P 8225 4550
+F 0 "SW15" H 8225 4805 50  0000 C CNN
+F 1 "SW_PUSH" H 8225 4714 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 8225 4550 50  0001 C CNN
+F 3 "" H 8225 4550 50  0000 C CNN
+	1    8225 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5E6F0553
+P 8525 4700
+F 0 "D15" H 8525 4916 50  0000 C CNN
+F 1 "D" H 8525 4825 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD" H 8525 4700 50  0001 C CNN
+F 3 "~" H 8525 4700 50  0001 C CNN
+	1    8525 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW12
+U 1 1 5E6F3B29
+P 7225 5300
+F 0 "SW12" H 7225 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 7225 5464 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 7225 5300 50  0001 C CNN
+F 3 "" H 7225 5300 50  0000 C CNN
+	1    7225 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5E6F3B2F
+P 7525 5450
+F 0 "D12" H 7525 5666 50  0000 C CNN
+F 1 "D" H 7525 5575 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD" H 7525 5450 50  0001 C CNN
+F 3 "~" H 7525 5450 50  0001 C CNN
+	1    7525 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW16
+U 1 1 5E6F3B35
+P 8225 5300
+F 0 "SW16" H 8225 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 8225 5464 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 8225 5300 50  0001 C CNN
+F 3 "" H 8225 5300 50  0000 C CNN
+	1    8225 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5E6F3B3B
+P 8525 5450
+F 0 "D16" H 8525 5666 50  0000 C CNN
+F 1 "D" H 8525 5575 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD" H 8525 5450 50  0001 C CNN
+F 3 "~" H 8525 5450 50  0001 C CNN
+	1    8525 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8525 3350 7525 3350
+Connection ~ 7525 3350
+Wire Wire Line
+	8525 4100 7525 4100
+Connection ~ 7525 4100
+Wire Wire Line
+	8525 4850 7525 4850
+Connection ~ 7525 4850
+Wire Wire Line
+	8525 5600 7525 5600
+Connection ~ 7525 5600
+Wire Wire Line
+	6925 3050 6925 3800
+Wire Wire Line
+	6925 3800 6925 4550
+Connection ~ 6925 3800
+Wire Wire Line
+	6925 4550 6925 5300
+Connection ~ 6925 4550
+Wire Wire Line
+	7925 3050 7925 3800
+Wire Wire Line
+	7925 3800 7925 4550
+Connection ~ 7925 3800
+Wire Wire Line
+	7925 4550 7925 5300
+Connection ~ 7925 4550
+Text GLabel 5475 3350 0    50   Input ~ 0
+row00
+Text GLabel 5475 4850 0    50   Input ~ 0
+row02
+Text GLabel 5475 5600 0    50   Input ~ 0
+row03
+Text GLabel 7925 2400 1    50   Input ~ 0
+col01
+Text GLabel 9525 3800 2    50   Input ~ 0
+col02
+Wire Wire Line
+	6925 3050 6925 2400
+Connection ~ 6925 3050
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 5E736184
+P 9325 3150
+F 0 "J5" H 9405 3142 50  0000 L CNN
+F 1 "Conn_01x04" H 9405 3051 50  0000 L CNN
+F 2 "nori4x4:J_1x04_P2.00mm_Vertical" H 9325 3150 50  0001 C CNN
+F 3 "~" H 9325 3150 50  0001 C CNN
+	1    9325 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5E737228
+P 9325 3900
+F 0 "J6" H 9405 3892 50  0000 L CNN
+F 1 "Conn_01x04" H 9405 3801 50  0000 L CNN
+F 2 "nori4x4:J_1x04_P2.00mm_Vertical" H 9325 3900 50  0001 C CNN
+F 3 "~" H 9325 3900 50  0001 C CNN
+	1    9325 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J7
+U 1 1 5E737DEB
+P 9325 4650
+F 0 "J7" H 9405 4642 50  0000 L CNN
+F 1 "Conn_01x04" H 9405 4551 50  0000 L CNN
+F 2 "nori4x4:J_1x04_P2.00mm_Vertical" H 9325 4650 50  0001 C CNN
+F 3 "~" H 9325 4650 50  0001 C CNN
+	1    9325 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 5E738C5A
+P 9325 5400
+F 0 "J8" H 9405 5392 50  0000 L CNN
+F 1 "Conn_01x04" H 9405 5301 50  0000 L CNN
+F 2 "nori4x4:J_1x04_P2.00mm_Vertical" H 9325 5400 50  0001 C CNN
+F 3 "~" H 9325 5400 50  0001 C CNN
+	1    9325 5400
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1050 1750 0    50   Input ~ 0
+row00
+Text GLabel 1050 1850 0    50   Input ~ 0
+row01
+Text GLabel 1050 1950 0    50   Input ~ 0
+row02
+Text GLabel 1050 2050 0    50   Input ~ 0
+row03
+Text GLabel 1050 2250 0    50   Input ~ 0
+col01
+Text GLabel 2450 1550 2    50   Input ~ 0
+col02
+Text GLabel 2450 1650 2    50   Input ~ 0
+col03
+Text GLabel 2450 1750 2    50   Input ~ 0
+col04
+NoConn ~ 9525 5300
+NoConn ~ 9525 5400
+NoConn ~ 9525 5500
+NoConn ~ 9525 5600
+Text GLabel 9525 3050 2    50   Input ~ 0
+row00
+Text GLabel 9525 3150 2    50   Input ~ 0
+row01
+Text GLabel 9525 3250 2    50   Input ~ 0
+row02
+Text GLabel 9525 3350 2    50   Input ~ 0
+row03
+Text GLabel 9525 4000 2    50   Input ~ 0
+col04
+Text GLabel 9525 4100 2    50   Input ~ 0
+col05
+Text GLabel 9525 4550 2    50   Input ~ 0
+col06
+Text GLabel 9525 4650 2    50   Input ~ 0
+col07
+Text GLabel 2450 1850 2    50   Input ~ 0
+col05
+Text GLabel 2450 1950 2    50   Input ~ 0
+col06
+Text GLabel 2450 2050 2    50   Input ~ 0
+col07
+$Comp
+L kbd:ProMicro U1
+U 1 1 5E6DE431
+P 1750 1900
+F 0 "U1" H 1750 2937 60  0000 C CNN
+F 1 "ProMicro" H 1750 2831 60  0000 C CNN
+F 2 "kbd:ProMicro_v2" H 1850 850 60  0001 C CNN
+F 3 "" H 1850 850 60  0000 C CNN
+	1    1750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5E874E15
+P 3050 1600
+F 0 "#PWR0103" H 3050 1450 50  0001 C CNN
+F 1 "VCC" H 3067 1773 50  0000 C CNN
+F 2 "" H 3050 1600 50  0001 C CNN
+F 3 "" H 3050 1600 50  0001 C CNN
+	1    3050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E886091
+P 550 1450
+F 0 "#PWR0104" H 550 1200 50  0001 C CNN
+F 1 "GND" H 555 1277 50  0000 C CNN
+F 2 "" H 550 1450 50  0001 C CNN
+F 3 "" H 550 1450 50  0001 C CNN
+	1    550  1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  1450 800  1450
+Wire Wire Line
+	1050 1350 800  1350
+Wire Wire Line
+	800  1350 800  1450
+Connection ~ 800  1450
+Wire Wire Line
+	800  1450 1050 1450
+NoConn ~ 1050 1150
+$Comp
+L power:GND #PWR0105
+U 1 1 5E892723
+P 3050 950
+F 0 "#PWR0105" H 3050 700 50  0001 C CNN
+F 1 "GND" H 3055 777 50  0000 C CNN
+F 2 "" H 3050 950 50  0001 C CNN
+F 3 "" H 3050 950 50  0001 C CNN
+	1    3050 950 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2450 1150
+$Comp
+L kbd:SW_PUSH SW17
+U 1 1 5E8F8B59
+P 1850 3400
+F 0 "SW17" H 1850 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 1850 3564 50  0000 C CNN
+F 2 "kbd:ResetSW" H 1850 3400 50  0001 C CNN
+F 3 "" H 1850 3400 50  0000 C CNN
+	1    1850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E904DF4
+P 2150 3400
+F 0 "#PWR0106" H 2150 3150 50  0001 C CNN
+F 1 "GND" H 2155 3227 50  0000 C CNN
+F 2 "" H 2150 3400 50  0001 C CNN
+F 3 "" H 2150 3400 50  0001 C CNN
+	1    2150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1250 2900 1250
+Wire Wire Line
+	2900 1250 2900 950 
+Wire Wire Line
+	2900 950  3050 950 
+Wire Wire Line
+	2450 1450 2900 1450
+Wire Wire Line
+	2900 1450 2900 1600
+Wire Wire Line
+	2900 1600 3050 1600
+$Comp
+L kbd:SW_PUSH SW19
+U 1 1 5E7AD0B3
+P 8225 6050
+F 0 "SW19" H 8225 6305 50  0000 C CNN
+F 1 "SW_PUSH" H 8225 6214 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 8225 6050 50  0001 C CNN
+F 3 "" H 8225 6050 50  0000 C CNN
+	1    8225 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW20
+U 1 1 5E7B0B0B
+P 7225 6050
+F 0 "SW20" H 7225 6305 50  0000 C CNN
+F 1 "SW_PUSH" H 7225 6214 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 7225 6050 50  0001 C CNN
+F 3 "" H 7225 6050 50  0000 C CNN
+	1    7225 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6925 5300 6925 6050
+Connection ~ 6925 5300
+Wire Wire Line
+	7525 5300 7675 5300
+Wire Wire Line
+	7675 5300 7675 6050
+Wire Wire Line
+	7675 6050 7525 6050
+Connection ~ 7525 5300
+Text GLabel 5475 4100 0    50   Input ~ 0
+row01
+Wire Wire Line
+	5475 3350 7525 3350
+Wire Wire Line
+	5475 4100 7525 4100
+Wire Wire Line
+	5475 4850 7525 4850
+$Comp
+L kbd:OLED OL1
+U 1 1 5E9245A1
+P 1325 4225
+F 0 "OL1" H 1953 4294 51  0000 L CNN
+F 1 "OLED" H 1953 4204 47  0000 L CNN
+F 2 "kbd:OLED" H 1325 4325 60  0001 C CNN
+F 3 "" H 1325 4325 60  0001 C CNN
+	1    1325 4225
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:MJ-4PP-9 J1
+U 1 1 5E925262
+P 1800 2875
+F 0 "J1" H 1620 2925 50  0000 R CNN
+F 1 "MJ-4PP-9" H 1620 2834 50  0000 R CNN
+F 2 "kbd:MJ-4PP-9" H 2075 3050 50  0001 C CNN
+F 3 "~" H 2075 3050 50  0001 C CNN
+	1    1800 2875
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1050 1250 0    50   Input ~ 0
+data
+Text GLabel 1050 1550 0    50   Input ~ 0
+SDA
+Text GLabel 1050 1650 0    50   Input ~ 0
+SCL
+Text GLabel 3200 4475 2    50   Input ~ 0
+SDA
+Text GLabel 3200 4325 2    50   Input ~ 0
+SCL
+$Comp
+L power:VCC #PWR0107
+U 1 1 5E94BD8D
+P 3350 4175
+F 0 "#PWR0107" H 3350 4025 50  0001 C CNN
+F 1 "VCC" H 3367 4348 50  0000 C CNN
+F 2 "" H 3350 4175 50  0001 C CNN
+F 3 "" H 3350 4175 50  0001 C CNN
+	1    3350 4175
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5E94D944
+P 3350 4025
+F 0 "#PWR0108" H 3350 3775 50  0001 C CNN
+F 1 "GND" H 3355 3852 50  0000 C CNN
+F 2 "" H 3350 4025 50  0001 C CNN
+F 3 "" H 3350 4025 50  0001 C CNN
+	1    3350 4025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 4175 3350 4175
+$Comp
+L power:GND #PWR0109
+U 1 1 5E954599
+P 1200 2900
+F 0 "#PWR0109" H 1200 2650 50  0001 C CNN
+F 1 "GND" H 1205 2727 50  0000 C CNN
+F 2 "" H 1200 2900 50  0001 C CNN
+F 3 "" H 1200 2900 50  0001 C CNN
+	1    1200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 5E9559B1
+P 1200 2850
+F 0 "#PWR0110" H 1200 2700 50  0001 C CNN
+F 1 "VCC" H 1217 3023 50  0000 C CNN
+F 2 "" H 1200 2850 50  0001 C CNN
+F 3 "" H 1200 2850 50  0001 C CNN
+	1    1200 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2850 1600 2850
+Wire Wire Line
+	1200 2900 1600 2900
+Text GLabel 1600 2950 0    50   Input ~ 0
+data
+NoConn ~ 1600 2800
+Text GLabel 1550 3400 0    50   Input ~ 0
+reset
+Text GLabel 2450 1350 2    50   Input ~ 0
+reset
+Wire Wire Line
+	3200 4025 3350 4025
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5E83FDC5
+P 3100 4025
+F 0 "JP1" H 3100 4118 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3100 4119 50  0001 C CNN
+F 2 "kbd:Jumper" H 3100 4025 50  0001 C CNN
+F 3 "~" H 3100 4025 50  0001 C CNN
+	1    3100 4025
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 4850 2    50   Input ~ 0
+SDA
+Text GLabel 3200 5000 2    50   Input ~ 0
+SCL
+$Comp
+L power:VCC #PWR0111
+U 1 1 5E8512FB
+P 3350 5150
+F 0 "#PWR0111" H 3350 5000 50  0001 C CNN
+F 1 "VCC" H 3367 5323 50  0000 C CNN
+F 2 "" H 3350 5150 50  0001 C CNN
+F 3 "" H 3350 5150 50  0001 C CNN
+	1    3350 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 5150 3350 5150
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5E8544F2
+P 3100 4175
+F 0 "JP2" H 3100 4268 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3100 4269 50  0001 C CNN
+F 2 "kbd:Jumper" H 3100 4175 50  0001 C CNN
+F 3 "~" H 3100 4175 50  0001 C CNN
+	1    3100 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 5E855013
+P 3100 4325
+F 0 "JP3" H 3100 4418 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3100 4419 50  0001 C CNN
+F 2 "kbd:Jumper" H 3100 4325 50  0001 C CNN
+F 3 "~" H 3100 4325 50  0001 C CNN
+	1    3100 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 5E855B0F
+P 3100 4475
+F 0 "JP4" H 3100 4568 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3100 4569 50  0001 C CNN
+F 2 "kbd:Jumper" H 3100 4475 50  0001 C CNN
+F 3 "~" H 3100 4475 50  0001 C CNN
+	1    3100 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP5
+U 1 1 5E85664F
+P 3100 4850
+F 0 "JP5" H 3100 4943 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3100 4944 50  0001 C CNN
+F 2 "kbd:Jumper" H 3100 4850 50  0001 C CNN
+F 3 "~" H 3100 4850 50  0001 C CNN
+	1    3100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP6
+U 1 1 5E856FF3
+P 3100 5000
+F 0 "JP6" H 3100 5093 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3100 5094 50  0001 C CNN
+F 2 "kbd:Jumper" H 3100 5000 50  0001 C CNN
+F 3 "~" H 3100 5000 50  0001 C CNN
+	1    3100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP7
+U 1 1 5E8579DD
+P 3100 5150
+F 0 "JP7" H 3100 5243 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3100 5244 50  0001 C CNN
+F 2 "kbd:Jumper" H 3100 5150 50  0001 C CNN
+F 3 "~" H 3100 5150 50  0001 C CNN
+	1    3100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP8
+U 1 1 5E858421
+P 3100 5300
+F 0 "JP8" H 3100 5393 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3100 5394 50  0001 C CNN
+F 2 "kbd:Jumper" H 3100 5300 50  0001 C CNN
+F 3 "~" H 3100 5300 50  0001 C CNN
+	1    3100 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2075 4025 2525 4025
+Wire Wire Line
+	2075 4175 2425 4175
+Wire Wire Line
+	2075 4325 2325 4325
+Wire Wire Line
+	2075 4475 2225 4475
+Wire Wire Line
+	2525 4025 2525 4850
+Wire Wire Line
+	2525 4850 3000 4850
+Connection ~ 2525 4025
+Wire Wire Line
+	2525 4025 3000 4025
+Wire Wire Line
+	2425 4175 2425 5000
+Wire Wire Line
+	2425 5000 3000 5000
+Connection ~ 2425 4175
+Wire Wire Line
+	2425 4175 3000 4175
+Wire Wire Line
+	2325 4325 2325 5150
+Wire Wire Line
+	2325 5150 3000 5150
+Connection ~ 2325 4325
+Wire Wire Line
+	2325 4325 3000 4325
+Wire Wire Line
+	2225 4475 2225 5300
+Wire Wire Line
+	2225 5300 3000 5300
+Connection ~ 2225 4475
+Wire Wire Line
+	2225 4475 3000 4475
+Wire Wire Line
+	5475 5600 7525 5600
+Wire Wire Line
+	7925 6050 7925 5300
+Connection ~ 7925 5300
+Wire Wire Line
+	8525 5300 8675 5300
+Wire Wire Line
+	8675 5300 8675 6050
+Wire Wire Line
+	8675 6050 8525 6050
+Connection ~ 8525 5300
+Connection ~ 7925 3050
+Wire Wire Line
+	7925 3050 7925 2400
+Text GLabel 9525 3900 2    50   Input ~ 0
+col03
+Text GLabel 6925 2400 1    50   Input ~ 0
+col00
+Text GLabel 9525 4750 2    50   Input ~ 0
+col08
+Text GLabel 9525 4850 2    50   Input ~ 0
+col09
+Text GLabel 1050 2150 0    50   Input ~ 0
+col00
+Text GLabel 2450 2150 2    50   Input ~ 0
+col08
+Text GLabel 2450 2250 2    50   Input ~ 0
+col09
+Wire Wire Line
+	3200 5300 3350 5300
+$Comp
+L power:GND #PWR0112
+U 1 1 5E851301
+P 3350 5300
+F 0 "#PWR0112" H 3350 5050 50  0001 C CNN
+F 1 "GND" H 3355 5127 50  0000 C CNN
+F 2 "" H 3350 5300 50  0001 C CNN
+F 3 "" H 3350 5300 50  0001 C CNN
+	1    3350 5300
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

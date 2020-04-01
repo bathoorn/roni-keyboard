@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name kbd)(type KiCad)(uri /home/ronniebathoorn/Documents/Keyboard/libs/kbd-master/kbd.pretty)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri /home/ronniebathoorn/Documents/Keyboard/libs/Keebio-Parts.pretty-master)(options "")(descr ""))
+  (lib (name keebs)(type KiCad)(uri /home/ronniebathoorn/Documents/Keyboard/libs/keebs.pretty-master)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri /home/ronniebathoorn/Documents/Keyboard/libs/keyboard_parts.pretty-master)(options "")(descr ""))
+  (lib (name MX_Only)(type KiCad)(uri /home/ronniebathoorn/Documents/Keyboard/libs/MX_Alps_Hybrid-master/MX_Only.pretty)(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri /home/ronniebathoorn/Documents/Keyboard/libs/keyswitches.pretty-master)(options "")(descr ""))
+  (lib (name nori4x4)(type KiCad)(uri ${KIPRJMOD}/nori4x4.pretty)(options "")(descr ""))
+)
